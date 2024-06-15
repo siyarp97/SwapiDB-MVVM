@@ -18,7 +18,9 @@ struct StarshipView: View {
         
         NavigationView{
             List(starshipsVM.starshipsArray){ starship in
-                Text(starship.name)
+                NavigationLink(destination: DetailStarshipView(url: starship.url), label: {
+                    Text(starship.name)
+                })
                     .task {
                         await starshipsVM.downloadIfNeeded(starship: starship)
                     }

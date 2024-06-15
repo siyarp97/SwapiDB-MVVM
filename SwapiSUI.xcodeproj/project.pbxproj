@@ -25,7 +25,6 @@
 		BC7B668F2C1C728900D6F2B6 /* FilmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7B668E2C1C728900D6F2B6 /* FilmView.swift */; };
 		BC7B66912C1C7F1200D6F2B6 /* FilmsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7B66902C1C7F1200D6F2B6 /* FilmsModel.swift */; };
 		BC7B66932C1C819A00D6F2B6 /* FilmsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7B66922C1C819A00D6F2B6 /* FilmsViewModel.swift */; };
-		BC7B66962C1C9A9900D6F2B6 /* FilmsDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7B66952C1C9A9900D6F2B6 /* FilmsDetailModel.swift */; };
 		BC7B66992C1C9C3400D6F2B6 /* PeopleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7B66982C1C9C3400D6F2B6 /* PeopleModel.swift */; };
 		BCEF39252C1CE47100D6A9D2 /* StarshipsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF39242C1CE47100D6A9D2 /* StarshipsModel.swift */; };
 		BCEF39272C1CE4DD00D6A9D2 /* StarshipsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF39262C1CE4DD00D6A9D2 /* StarshipsViewModel.swift */; };
@@ -33,6 +32,24 @@
 		BCEF392C2C1CE95E00D6A9D2 /* VehiclesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF392B2C1CE95E00D6A9D2 /* VehiclesModel.swift */; };
 		BCEF392E2C1CE98400D6A9D2 /* VehiclesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF392D2C1CE98400D6A9D2 /* VehiclesViewModel.swift */; };
 		BCEF39302C1CEBF300D6A9D2 /* VehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF392F2C1CEBF300D6A9D2 /* VehicleView.swift */; };
+		BCEF39362C1CF80A00D6A9D2 /* DetailPeopleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF39352C1CF80A00D6A9D2 /* DetailPeopleModel.swift */; };
+		BCEF39382C1CF84900D6A9D2 /* DetailPeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF39372C1CF84900D6A9D2 /* DetailPeopleViewModel.swift */; };
+		BCEF393A2C1CFCC900D6A9D2 /* DetailPeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF39392C1CFCC900D6A9D2 /* DetailPeopleView.swift */; };
+		BCEF393C2C1E402600D6A9D2 /* DetailsFilmsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF393B2C1E402600D6A9D2 /* DetailsFilmsModel.swift */; };
+		BCEF393E2C1E40EF00D6A9D2 /* DetailFilmsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF393D2C1E40EF00D6A9D2 /* DetailFilmsViewModel.swift */; };
+		BCEF39402C1E429D00D6A9D2 /* DetailFilmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF393F2C1E429D00D6A9D2 /* DetailFilmsView.swift */; };
+		BCEF39422C1E44DB00D6A9D2 /* DetailPlanetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF39412C1E44DB00D6A9D2 /* DetailPlanetModel.swift */; };
+		BCEF39442C1E459700D6A9D2 /* DetailPlanetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF39432C1E459700D6A9D2 /* DetailPlanetViewModel.swift */; };
+		BCEF39462C1E46D000D6A9D2 /* DetailPlanetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF39452C1E46D000D6A9D2 /* DetailPlanetsView.swift */; };
+		BCEF39482C1E4C6200D6A9D2 /* DetailSpeciesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF39472C1E4C6200D6A9D2 /* DetailSpeciesModel.swift */; };
+		BCEF394A2C1E4D2600D6A9D2 /* DetailSpeciesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF39492C1E4D2600D6A9D2 /* DetailSpeciesViewModel.swift */; };
+		BCEF394C2C1E4E3D00D6A9D2 /* DetailSpeciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF394B2C1E4E3D00D6A9D2 /* DetailSpeciesView.swift */; };
+		BCEF394E2C1E504700D6A9D2 /* DetailsStarshipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF394D2C1E504700D6A9D2 /* DetailsStarshipModel.swift */; };
+		BCEF39502C1E50CD00D6A9D2 /* DetailStarshipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF394F2C1E50CD00D6A9D2 /* DetailStarshipViewModel.swift */; };
+		BCEF39522C1E513E00D6A9D2 /* DetailStarshipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF39512C1E513E00D6A9D2 /* DetailStarshipView.swift */; };
+		BCEF39542C1E547E00D6A9D2 /* DetailVehicleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF39532C1E547E00D6A9D2 /* DetailVehicleModel.swift */; };
+		BCEF39562C1E54D400D6A9D2 /* DetailVehicleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF39552C1E54D400D6A9D2 /* DetailVehicleViewModel.swift */; };
+		BCEF39582C1E55C900D6A9D2 /* DetailVehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF39572C1E55C900D6A9D2 /* DetailVehicleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,7 +72,6 @@
 		BC7B668E2C1C728900D6F2B6 /* FilmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmView.swift; sourceTree = "<group>"; };
 		BC7B66902C1C7F1200D6F2B6 /* FilmsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsModel.swift; sourceTree = "<group>"; };
 		BC7B66922C1C819A00D6F2B6 /* FilmsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsViewModel.swift; sourceTree = "<group>"; };
-		BC7B66952C1C9A9900D6F2B6 /* FilmsDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsDetailModel.swift; sourceTree = "<group>"; };
 		BC7B66982C1C9C3400D6F2B6 /* PeopleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleModel.swift; sourceTree = "<group>"; };
 		BCEF39242C1CE47100D6A9D2 /* StarshipsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipsModel.swift; sourceTree = "<group>"; };
 		BCEF39262C1CE4DD00D6A9D2 /* StarshipsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipsViewModel.swift; sourceTree = "<group>"; };
@@ -63,6 +79,24 @@
 		BCEF392B2C1CE95E00D6A9D2 /* VehiclesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesModel.swift; sourceTree = "<group>"; };
 		BCEF392D2C1CE98400D6A9D2 /* VehiclesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesViewModel.swift; sourceTree = "<group>"; };
 		BCEF392F2C1CEBF300D6A9D2 /* VehicleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleView.swift; sourceTree = "<group>"; };
+		BCEF39352C1CF80A00D6A9D2 /* DetailPeopleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPeopleModel.swift; sourceTree = "<group>"; };
+		BCEF39372C1CF84900D6A9D2 /* DetailPeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPeopleViewModel.swift; sourceTree = "<group>"; };
+		BCEF39392C1CFCC900D6A9D2 /* DetailPeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPeopleView.swift; sourceTree = "<group>"; };
+		BCEF393B2C1E402600D6A9D2 /* DetailsFilmsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsFilmsModel.swift; sourceTree = "<group>"; };
+		BCEF393D2C1E40EF00D6A9D2 /* DetailFilmsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFilmsViewModel.swift; sourceTree = "<group>"; };
+		BCEF393F2C1E429D00D6A9D2 /* DetailFilmsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFilmsView.swift; sourceTree = "<group>"; };
+		BCEF39412C1E44DB00D6A9D2 /* DetailPlanetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPlanetModel.swift; sourceTree = "<group>"; };
+		BCEF39432C1E459700D6A9D2 /* DetailPlanetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPlanetViewModel.swift; sourceTree = "<group>"; };
+		BCEF39452C1E46D000D6A9D2 /* DetailPlanetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPlanetsView.swift; sourceTree = "<group>"; };
+		BCEF39472C1E4C6200D6A9D2 /* DetailSpeciesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSpeciesModel.swift; sourceTree = "<group>"; };
+		BCEF39492C1E4D2600D6A9D2 /* DetailSpeciesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSpeciesViewModel.swift; sourceTree = "<group>"; };
+		BCEF394B2C1E4E3D00D6A9D2 /* DetailSpeciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSpeciesView.swift; sourceTree = "<group>"; };
+		BCEF394D2C1E504700D6A9D2 /* DetailsStarshipModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsStarshipModel.swift; sourceTree = "<group>"; };
+		BCEF394F2C1E50CD00D6A9D2 /* DetailStarshipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailStarshipViewModel.swift; sourceTree = "<group>"; };
+		BCEF39512C1E513E00D6A9D2 /* DetailStarshipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailStarshipView.swift; sourceTree = "<group>"; };
+		BCEF39532C1E547E00D6A9D2 /* DetailVehicleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVehicleModel.swift; sourceTree = "<group>"; };
+		BCEF39552C1E54D400D6A9D2 /* DetailVehicleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVehicleViewModel.swift; sourceTree = "<group>"; };
+		BCEF39572C1E55C900D6A9D2 /* DetailVehicleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVehicleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +145,7 @@
 		BC7B66752C1BB31400D6F2B6 /* SwapiSUI */ = {
 			isa = PBXGroup;
 			children = (
+				BCEF39312C1CF7C300D6A9D2 /* DetailsGroup */,
 				BC7B66872C1BB34600D6F2B6 /* Service */,
 				BC7B66862C1BB34100D6F2B6 /* ViewModel */,
 				BC7B66852C1BB33A00D6F2B6 /* View */,
@@ -184,7 +219,6 @@
 			isa = PBXGroup;
 			children = (
 				BC7B66902C1C7F1200D6F2B6 /* FilmsModel.swift */,
-				BC7B66952C1C9A9900D6F2B6 /* FilmsDetailModel.swift */,
 			);
 			path = Films;
 			sourceTree = "<group>";
@@ -211,6 +245,55 @@
 				BCEF392B2C1CE95E00D6A9D2 /* VehiclesModel.swift */,
 			);
 			path = Vehicles;
+			sourceTree = "<group>";
+		};
+		BCEF39312C1CF7C300D6A9D2 /* DetailsGroup */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF39332C1CF7D900D6A9D2 /* DetailsModel */,
+				BCEF39322C1CF7CD00D6A9D2 /* DetailsView */,
+				BCEF39342C1CF7E200D6A9D2 /* DetailsViewModel */,
+			);
+			path = DetailsGroup;
+			sourceTree = "<group>";
+		};
+		BCEF39322C1CF7CD00D6A9D2 /* DetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF39392C1CFCC900D6A9D2 /* DetailPeopleView.swift */,
+				BCEF393F2C1E429D00D6A9D2 /* DetailFilmsView.swift */,
+				BCEF39452C1E46D000D6A9D2 /* DetailPlanetsView.swift */,
+				BCEF394B2C1E4E3D00D6A9D2 /* DetailSpeciesView.swift */,
+				BCEF39512C1E513E00D6A9D2 /* DetailStarshipView.swift */,
+				BCEF39572C1E55C900D6A9D2 /* DetailVehicleView.swift */,
+			);
+			path = DetailsView;
+			sourceTree = "<group>";
+		};
+		BCEF39332C1CF7D900D6A9D2 /* DetailsModel */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF39352C1CF80A00D6A9D2 /* DetailPeopleModel.swift */,
+				BCEF393B2C1E402600D6A9D2 /* DetailsFilmsModel.swift */,
+				BCEF39412C1E44DB00D6A9D2 /* DetailPlanetModel.swift */,
+				BCEF39472C1E4C6200D6A9D2 /* DetailSpeciesModel.swift */,
+				BCEF394D2C1E504700D6A9D2 /* DetailsStarshipModel.swift */,
+				BCEF39532C1E547E00D6A9D2 /* DetailVehicleModel.swift */,
+			);
+			path = DetailsModel;
+			sourceTree = "<group>";
+		};
+		BCEF39342C1CF7E200D6A9D2 /* DetailsViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF39372C1CF84900D6A9D2 /* DetailPeopleViewModel.swift */,
+				BCEF393D2C1E40EF00D6A9D2 /* DetailFilmsViewModel.swift */,
+				BCEF39432C1E459700D6A9D2 /* DetailPlanetViewModel.swift */,
+				BCEF39492C1E4D2600D6A9D2 /* DetailSpeciesViewModel.swift */,
+				BCEF394F2C1E50CD00D6A9D2 /* DetailStarshipViewModel.swift */,
+				BCEF39552C1E54D400D6A9D2 /* DetailVehicleViewModel.swift */,
+			);
+			path = DetailsViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,8 +366,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCEF39542C1E547E00D6A9D2 /* DetailVehicleModel.swift in Sources */,
+				BCEF39422C1E44DB00D6A9D2 /* DetailPlanetModel.swift in Sources */,
 				BC11E1592C1CD0FA00B7D8BE /* PlanetsView.swift in Sources */,
+				BCEF394A2C1E4D2600D6A9D2 /* DetailSpeciesViewModel.swift in Sources */,
+				BCEF39402C1E429D00D6A9D2 /* DetailFilmsView.swift in Sources */,
+				BCEF393A2C1CFCC900D6A9D2 /* DetailPeopleView.swift in Sources */,
 				BC11E1522C1CAB8300B7D8BE /* PeopleViewModel.swift in Sources */,
+				BCEF39382C1CF84900D6A9D2 /* DetailPeopleViewModel.swift in Sources */,
+				BCEF394C2C1E4E3D00D6A9D2 /* DetailSpeciesView.swift in Sources */,
 				BC11E1622C1CDADE00B7D8BE /* SpeciesView.swift in Sources */,
 				BC7B66992C1C9C3400D6F2B6 /* PeopleModel.swift in Sources */,
 				BCEF39272C1CE4DD00D6A9D2 /* StarshipsViewModel.swift in Sources */,
@@ -293,20 +383,30 @@
 				BCEF39302C1CEBF300D6A9D2 /* VehicleView.swift in Sources */,
 				BC11E1602C1CD80600B7D8BE /* SpeciesViewModel.swift in Sources */,
 				BCEF39292C1CE74E00D6A9D2 /* StarshipView.swift in Sources */,
+				BCEF39482C1E4C6200D6A9D2 /* DetailSpeciesModel.swift in Sources */,
+				BCEF393C2C1E402600D6A9D2 /* DetailsFilmsModel.swift in Sources */,
 				BC7B66792C1BB31400D6F2B6 /* EmpireView.swift in Sources */,
-				BC7B66962C1C9A9900D6F2B6 /* FilmsDetailModel.swift in Sources */,
+				BCEF393E2C1E40EF00D6A9D2 /* DetailFilmsViewModel.swift in Sources */,
 				BCEF392E2C1CE98400D6A9D2 /* VehiclesViewModel.swift in Sources */,
+				BCEF39562C1E54D400D6A9D2 /* DetailVehicleViewModel.swift in Sources */,
 				BC11E1572C1CD08C00B7D8BE /* PlanetsModel.swift in Sources */,
 				BCEF392C2C1CE95E00D6A9D2 /* VehiclesModel.swift in Sources */,
 				BCEF39252C1CE47100D6A9D2 /* StarshipsModel.swift in Sources */,
 				BC7B668F2C1C728900D6F2B6 /* FilmView.swift in Sources */,
+				BCEF39522C1E513E00D6A9D2 /* DetailStarshipView.swift in Sources */,
+				BCEF39362C1CF80A00D6A9D2 /* DetailPeopleModel.swift in Sources */,
 				BC7B66772C1BB31400D6F2B6 /* SwapiSUIApp.swift in Sources */,
+				BCEF39462C1E46D000D6A9D2 /* DetailPlanetsView.swift in Sources */,
+				BCEF39582C1E55C900D6A9D2 /* DetailVehicleView.swift in Sources */,
+				BCEF39442C1E459700D6A9D2 /* DetailPlanetViewModel.swift in Sources */,
 				BC11E15E2C1CD77900B7D8BE /* SpeciesModel.swift in Sources */,
+				BCEF394E2C1E504700D6A9D2 /* DetailsStarshipModel.swift in Sources */,
 				BC7B668D2C1BB51300D6F2B6 /* WebService.swift in Sources */,
 				BC7B66932C1C819A00D6F2B6 /* FilmsViewModel.swift in Sources */,
 				BC7B66892C1BB45300D6F2B6 /* BaseUrlModel.swift in Sources */,
 				BC11E15B2C1CD10800B7D8BE /* PlanetsViewModel.swift in Sources */,
 				BC11E1542C1CAED200B7D8BE /* PeopleView.swift in Sources */,
+				BCEF39502C1E50CD00D6A9D2 /* DetailStarshipViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

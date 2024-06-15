@@ -27,9 +27,10 @@ class PeopleViewModel : ObservableObject {
         
         do{
             let (data, _) = try await URLSession.shared.data(from: url)
-            
+
             do{
                 let returned = try JSONDecoder().decode(Returned.self, from: data)
+
                 urlStr = returned.next ?? ""
                 peopleArray += returned.results
             }

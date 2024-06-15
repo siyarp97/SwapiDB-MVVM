@@ -12,6 +12,7 @@ struct FilmView: View {
     let urlStr = URL(string:"https://swapi.dev/api/films/")
     
     @ObservedObject var filmsArr : FilmsViewModel
+
     
     init(){
         filmsArr = FilmsViewModel()
@@ -21,9 +22,12 @@ struct FilmView: View {
         NavigationView{
             ForEach(filmsArr.filmsArray){ filmResults in
                 List(filmResults.results){ filmInfo in
-                    HStack{
+
+                    NavigationLink(destination: DetailFilmsView(url: filmInfo.url)) {
                         Text(filmInfo.title)
                     }
+                        
+                    
                 }
         }
             .navigationBarBackButtonHidden(true)

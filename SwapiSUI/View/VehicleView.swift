@@ -15,7 +15,9 @@ struct VehicleView: View {
     var body: some View {
         NavigationView{
             List(vehiclesArray.vehiclesArray){ vehicle in
-                Text(vehicle.name)
+                NavigationLink(destination: DetailVehicleView(url: vehicle.url), label: {
+                    Text(vehicle.name)
+                })
                     .task {
                         await vehiclesArray.downloadIfNeeded(vehicle: vehicle)
                     }

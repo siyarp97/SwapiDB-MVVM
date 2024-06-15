@@ -19,7 +19,11 @@ struct PlanetsView: View {
         NavigationView{
             
             List(planetsVM.planetsArray) {planet in
-                Text(planet.name)
+ 
+                NavigationLink(destination: DetailPlanetsView(url: planet.url), label: {
+                    Text(planet.name)
+                })
+            
                     .task {
                         await planetsVM.loadIfNeeded(planets: planet)
                     }

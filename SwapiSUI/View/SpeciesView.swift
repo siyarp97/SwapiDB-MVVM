@@ -19,7 +19,11 @@ struct SpeciesView: View {
         
         NavigationView{
             List(speciesVM.speciesArray){ specie in
-                Text(specie.name ?? "")
+                NavigationLink(destination: {
+                    DetailSpeciesView(url: specie.url)
+                }, label: {
+                    Text(specie.name)
+                })
                     .task {
                         await speciesVM.loadIfNeeded(species: specie)
                     }
