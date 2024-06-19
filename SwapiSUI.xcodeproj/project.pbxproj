@@ -197,9 +197,9 @@
 			isa = PBXGroup;
 			children = (
 				BC7B668A2C1BB50600D6F2B6 /* MainPageViewModel.swift */,
-				BC7B66922C1C819A00D6F2B6 /* FilmsViewModel.swift */,
 				BC11E1512C1CAB8300B7D8BE /* PeopleViewModel.swift */,
 				BC11E15A2C1CD10800B7D8BE /* PlanetsViewModel.swift */,
+				BC7B66922C1C819A00D6F2B6 /* FilmsViewModel.swift */,
 				BC11E15F2C1CD80600B7D8BE /* SpeciesViewModel.swift */,
 				BCEF39262C1CE4DD00D6A9D2 /* StarshipsViewModel.swift */,
 				BCEF392D2C1CE98400D6A9D2 /* VehiclesViewModel.swift */,

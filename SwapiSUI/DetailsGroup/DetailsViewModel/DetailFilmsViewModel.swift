@@ -25,6 +25,7 @@ class DetailFilmsViewModel : ObservableObject{
             do{
                 let result = try JSONDecoder().decode(DetailsFilmsModel.self, from: data)
                 filmsArray.append(result)
+                
             }
             catch{
                 print("JSON DECODE FİLMS MODEL")
@@ -32,8 +33,8 @@ class DetailFilmsViewModel : ObservableObject{
         } catch{
             print("! DATA GELMEDİ FİLMS MODEL")
         }
-        
+        print(filmsArray[0].characters)
     }
-    
+
     
 }

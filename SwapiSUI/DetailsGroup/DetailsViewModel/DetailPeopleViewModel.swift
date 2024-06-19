@@ -28,6 +28,7 @@ class DetailPeopleViewModel : ObservableObject {
             do{
                 let result = try JSONDecoder().decode(DetailPeopleModel.self, from: data)
                 personAttributes.append(result)
+                linkOtherView()
             } catch{
                 print("JSON PARSE ERROR")
             }
@@ -36,4 +37,10 @@ class DetailPeopleViewModel : ObservableObject {
         }
     }
 
+    func linkOtherView(){
+        personAttributes.forEach { model in
+            print(model)
+        }
+    }
+    
 }

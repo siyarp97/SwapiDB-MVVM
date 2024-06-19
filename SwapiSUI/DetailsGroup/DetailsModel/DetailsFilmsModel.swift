@@ -13,6 +13,7 @@ class DetailsFilmsModel: Codable, Identifiable {
     let title: String
     let episodeID: Int
     let openingCrawl, director, producer, releaseDate, url: String
+    let characters : [String]
     
     enum CodingKeys: String, CodingKey {
         case title
@@ -21,5 +22,9 @@ class DetailsFilmsModel: Codable, Identifiable {
         case director, producer
         case releaseDate = "release_date"
         case url
+        case characters
         }
 }
+
+
+

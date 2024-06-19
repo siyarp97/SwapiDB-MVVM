@@ -19,74 +19,84 @@ struct EmpireView: View {
     var body: some View {
 
         NavigationView{
-
-                List(categoryArray.categoryArr, id:\.id){ category in
-                        
-                    NavigationLink{
-                        FilmView()
-                    } label : {
-                        Text("Films")
-                            .font(.title2)
-                            .fontDesign(.monospaced)
-                            .foregroundColor(.green)
-                            .background()
-                            
-                    }
-
-                    NavigationLink{
-                        PeopleView()
-                    } label : {
-                        Text("People")
-                            .font(.title2)
-                            .fontDesign(.monospaced)
-                            .foregroundColor(.green)
-                    }
-                    
-                    NavigationLink{
-                        PlanetsView()
-                    } label : {
-                        Text("Planets")
-                            .font(.title2)
-                            .fontDesign(.monospaced)
-                            .foregroundColor(.green)
-                    }
-                    
-                    NavigationLink{
-                        SpeciesView()
-                    } label : {
-                        Text("Species")
-                            .font(.title2)
-                            .fontDesign(.monospaced)
-                            .foregroundColor(.green)
-                    }
-                    
-                    NavigationLink{
-                        StarshipView()
-                    } label : {
-                        Text("Starships")
-                            .font(.title2)
-                            .fontDesign(.monospaced)
-                            .foregroundColor(.green)
-                    }
-                    
-                    NavigationLink{
-                        VehicleView()
-                    } label : {
-                        Text("Vehicles")
-                            .font(.title2)
-                            .fontDesign(.monospaced)
-                            .foregroundColor(.green)
-                    }
-                    
-                   
-                }.navigationTitle("Force Be With You!")
-                    .frame(alignment: .leading)
-                    
             
-                
-        }.task {
-            await categoryArray.downloadDatas(url: urlStr!)
+                List(categoryArray.categoryArr, id:\.id){ category in
+
+                    
+                        NavigationLink{
+                            FilmView()
+                        } label : {
+                            Text("Films >")
+                                .font(.title2)
+                                .fontDesign(.monospaced)
+                                .foregroundColor(.yellow)
+                                
+                        }.listRowBackground(Color.black)
+                        .listRowSeparatorTint(.yellow)
+                       
+                    
+                        
+                        
+                        NavigationLink{
+                            PeopleView()
+                        } label : {
+                            Text("People >")
+                                .font(.title2)
+                                .fontDesign(.monospaced)
+                                .foregroundColor(.yellow)
+                                
+                        }
+                        .listRowBackground(Color.black)
+                        .listRowSeparatorTint(.yellow)
+                        
+                        NavigationLink{
+                            PlanetsView()
+                        } label : {
+                            Text("Planets >")
+                                .font(.title2)
+                                .fontDesign(.monospaced)
+                                .foregroundColor(.yellow)
+                        }.listRowBackground(Color.black)
+                        .listRowSeparatorTint(.yellow)
+                        
+                        NavigationLink{
+                            SpeciesView()
+                        } label : {
+                            Text("Species >")
+                                .font(.title2)
+                                .fontDesign(.monospaced)
+                                .foregroundColor(.yellow)
+                        }.listRowBackground(Color.black)
+                        .listRowSeparatorTint(.yellow)
+                        
+                        NavigationLink{
+                            StarshipView()
+                        } label : {
+                            Text("Starships >")
+                                .font(.title2)
+                                .fontDesign(.monospaced)
+                                .foregroundColor(.yellow)
+                        }.listRowBackground(Color.black)
+                        .listRowSeparatorTint(.yellow)
+                        
+                        NavigationLink{
+                            VehicleView()
+                        } label : {
+                            Text("Vehicles >")
+                                .font(.title2)
+                                .fontDesign(.monospaced)
+                                .foregroundColor(.yellow)
+
+                }.listRowBackground(Color.black)
+                .listRowSeparatorTint(.yellow)
+
+
+                }.background(Color.secondary)
+                .scrollContentBackground(.hidden)
+            .frame(width:(UIScreen.main.bounds.width) * 0.8 ,height: (UIScreen.main.bounds.height) * 0.45)
+
         }
+        .task { await categoryArray.downloadDatas(url: urlStr!) }
 
     }
 }

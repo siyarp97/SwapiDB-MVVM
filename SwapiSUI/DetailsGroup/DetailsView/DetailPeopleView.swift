@@ -11,7 +11,7 @@ struct DetailPeopleView: View {
     
 
     @ObservedObject var personVM : DetailPeopleViewModel
-
+    @ObservedObject var homeworldData =  PlanetsViewModel()
     
     init(url: String){
         personVM = DetailPeopleViewModel()
@@ -19,18 +19,30 @@ struct DetailPeopleView: View {
     }
     
     var body: some View {
-        if personVM.personAttributes.isEmpty{
-            Text("Loading..")
-                .task {
-                    await personVM.downloadDetailPersonAsync()
+        NavigationStack{
+            if personVM.personAttributes.isEmpty{
+                Text("Loading..")
+                    .task { await personVM.downloadDetailPersonAsync() }
+            }
+            else{
+                List(personVM.personAttributes){ attr in
+                    VStack{
+                        Text("Name : \(attr.name)").fontWeight(.bold)
+                        Text(attr.birthYear)
+                        
+                        ForEach(homeworldData.planetsArray) {planet in
+                            if planet.url == attr.homeworld{
+                                NavigationLink {
+                                    DetailPlanetsView(url: attr.homeworld)
+                                } label: {
+                                    Text(planet.name)
+                                }
+
+                            }}
                     }
-        }
-        else{
-            List(personVM.personAttributes){ attr in
-            Text(attr.name)
-            Text(attr.birthYear)
-        }
-            
+                    
+                } .task { await homeworldData.getPlanetsData() }
+            }
         }
     }
 }
